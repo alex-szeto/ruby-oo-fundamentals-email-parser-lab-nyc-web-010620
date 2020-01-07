@@ -11,6 +11,6 @@ class EmailAddressParser
   end
 
   def parse
-    return emails.split(", ").map{|c| c.split(" ")}.flatten.uniq
+    return emails.split(", ").map{|c| c.split(" ")}.flatten
   end
 end
